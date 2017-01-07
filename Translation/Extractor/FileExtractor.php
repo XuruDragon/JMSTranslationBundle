@@ -227,7 +227,8 @@ class FileExtractor implements ExtractorInterface, LoggerAwareInterface
                         $visitingArgs[] = $ast;
                     } elseif ('twig' === $extension) {
                         $visitingMethod = 'visitTwigFile';
-                        $visitingArgs[] = $this->twig->parse($this->twig->tokenize(file_get_contents($file), (string) $file));
+                        $source = new \Twig_Source(file_get_contents($file), (string) $file);
+                        $visitingArgs[] = $this->twig->parse($this->twig->tokenize($source, (string) $file));
                     }
                 }
 
