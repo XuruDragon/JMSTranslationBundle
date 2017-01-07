@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63619342-0230-4aa6-aac3-0dd4029dfaab" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Translation/Extractor/File/TwigFileExtractor.php" afterPath="$PROJECT_DIR$/Translation/Extractor/File/TwigFileExtractor.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Twig/DefaultApplyingNodeVisitor.php" afterPath="$PROJECT_DIR$/Twig/DefaultApplyingNodeVisitor.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Twig/NormalizingNodeVisitor.php" afterPath="$PROJECT_DIR$/Twig/NormalizingNodeVisitor.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Twig/RemovingNodeVisitor.php" afterPath="$PROJECT_DIR$/Twig/RemovingNodeVisitor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="JMSTranslationBundle.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,18 +27,48 @@
       <file leaf-file-name="TwigFileExtractor.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Translation/Extractor/File/TwigFileExtractor.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
+            <state relative-caret-position="2988">
               <caret line="185" column="14" selection-start-line="185" selection-start-column="14" selection-end-line="185" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DefaultApplyingNodeVisitor.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DefaultApplyingNodeVisitor.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Twig/DefaultApplyingNodeVisitor.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="123">
               <caret line="46" column="14" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseTwigTestCase.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Tests/Twig/BaseTwigTestCase.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="186">
+              <caret line="34" column="46" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileExtractor.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Translation/Extractor/FileExtractor.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="205" column="53" selection-start-line="205" selection-start-column="53" selection-end-line="205" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -59,7 +87,7 @@
       <file leaf-file-name="NormalizingNodeVisitor.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Twig/NormalizingNodeVisitor.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
+            <state relative-caret-position="378">
               <caret line="35" column="40" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="40" />
               <folding />
             </state>
@@ -76,6 +104,9 @@
       <list>
         <option value="$PROJECT_DIR$/Translation/Extractor/File/TwigFileExtractor.php" />
         <option value="$PROJECT_DIR$/Twig/DefaultApplyingNodeVisitor.php" />
+        <option value="$PROJECT_DIR$/Tests/Twig/BaseTwigTestCase.php" />
+        <option value="$PROJECT_DIR$/Translation/Extractor/FileExtractor.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -173,6 +204,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -208,12 +245,13 @@
       <updated>1483807594813</updated>
       <workItem from="1483807596364" duration="433000" />
       <workItem from="1483808149466" duration="78000" />
-      <workItem from="1483808424686" duration="69000" />
+      <workItem from="1483808424686" duration="282000" />
+      <workItem from="1483809888138" duration="171000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="580000" />
+    <option name="totallyTimeSpent" value="964000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="18" width="1366" height="703" extended-state="6" />
@@ -256,6 +294,38 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Translation/Extractor/File/TwigFileExtractor.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2988">
+          <caret line="185" column="14" selection-start-line="185" selection-start-column="14" selection-end-line="185" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Twig/DefaultApplyingNodeVisitor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Twig/NormalizingNodeVisitor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="35" column="40" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Translation/Extractor/File/TwigFileExtractor.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="882">
           <caret line="68" column="25" selection-start-line="68" selection-start-column="25" selection-end-line="68" selection-end-column="25" />
           <folding />
@@ -282,15 +352,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-50">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Translation/Extractor/FileExtractor.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="50" column="7" selection-start-line="50" selection-start-column="7" selection-end-line="50" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -304,7 +365,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Twig/NormalizingNodeVisitor.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
+        <state relative-caret-position="378">
           <caret line="35" column="40" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="40" />
           <folding />
         </state>
@@ -312,7 +373,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Translation/Extractor/File/TwigFileExtractor.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
+        <state relative-caret-position="2988">
           <caret line="185" column="14" selection-start-line="185" selection-start-column="14" selection-end-line="185" selection-end-column="14" />
           <folding />
         </state>
@@ -322,6 +383,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="123">
           <caret line="46" column="14" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/Twig/BaseTwigTestCase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="34" column="46" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Translation/Extractor/FileExtractor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="205" column="53" selection-start-line="205" selection-start-column="53" selection-end-line="205" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
           <folding />
         </state>
       </provider>
