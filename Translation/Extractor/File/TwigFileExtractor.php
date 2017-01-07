@@ -183,11 +183,11 @@ class TwigFileExtractor implements FileVisitorInterface, \Twig_NodeVisitorInterf
     }
 
     /**
-     * @param \Twig_NodeInterface $node
+     * @param \Twig_Node $node
      * @param \Twig_Environment $env
-     * @return \Twig_NodeInterface
+     * @return \Twig_Node
      */
-    public function leaveNode(\Twig_NodeInterface $node, \Twig_Environment $env)
+    public function leaveNode(\Twig_Node $node, \Twig_Environment $env)
     {
         array_pop($this->stack);
 
